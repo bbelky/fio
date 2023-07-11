@@ -1,0 +1,13 @@
+[global]
+bs=4K
+iodepth=1
+direct=1
+ioengine=libaio
+group_reporting
+runtime=60
+time_based
+numjobs=1
+rw=randwrite
+size=16G
+[job1]
+directory=/mnt/vstorage/t1r3
